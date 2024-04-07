@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--black: #252323;
+	--white: #ffffff;
+	--blue: #0ea5e7;
+
+	--bg-color: var(--blue);
+	--text-color: var(--white);
+}
+
+body {
+	@apply text-base overflow-hidden;
+	color: var(--text-color);
+	background-color: var(--bg-color);
+	background-image: url(https://mykaleidoscope.ru/uploads/posts/2022-08/1659732929_65-mykaleidoscope-ru-p-oblako-detskoe-dizain-krasivo-foto-70.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
